@@ -1,0 +1,36 @@
+.card {
+  display: flex;
+  gap: 1.5rem;
+  background: #eee;
+  padding: 1.5rem;
+  border-radius: 16px;
+  color: #333;
+  max-width: 600px;
+.cardtwo{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+}
+  img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #0077ff;
+  }
+
+  h2 {
+    
+    margin: 0;
+    color: #0077ff;
+  }
+
+  p {
+   
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    margin-top: 1.5em;
+  }
+}
+
+  

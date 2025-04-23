@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+.body{
+  font-family: 'Nunito', sans-serif;
+}
+*{
+  font-family: 'Nunito', sans-serif;;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  background: url('src/assets/Elipse.png') no-repeat top right,
+              url('/src/assets/Elipse2.png')no-repeat center left,
+              url('src/assets/Camada1.png') no-repeat 90px 20px;
+             
+  background-repeat: no-repeat;
+  flex-direction: column;
+  background-color: #2E2E2E;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  color: #fff;
+}
+.containerTwo{
+  background-color: #000000;
+  width: 1180px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 530px;
+  display: flex;
+  gap: 2rem;
+}
+.title {
+  
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.title img {
+  width: 300px;
+  margin-top: 1em;
+}
