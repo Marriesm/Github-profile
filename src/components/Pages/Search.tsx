@@ -38,7 +38,7 @@ function Search({ onSearch }: SearchProps) {
           className={styles.searchInput}
         />
         <button onClick={handleSearch} className={styles.searchButton}>
-          <img src="../../assets/pesquisa.png"/>
+          <img src="../../../assets/pesquisa.png"/>
         </button>
       </div>
 
