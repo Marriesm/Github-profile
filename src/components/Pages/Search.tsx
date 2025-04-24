@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import styles from './Search.module.scss';
-import searchIcon from '../../../assets/pesquisa.png';
+import searchIcon from '../../assets/pesquisa.png';
 
 interface SearchProps {
   onSearch: (user: any) => void;
