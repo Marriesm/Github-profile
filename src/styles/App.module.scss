@@ -9,9 +9,9 @@
 .container {
   min-height: 100vh;
   display: flex;
-  background: url('src/assets/Elipse.png') no-repeat top right,
+  background: url('/src/assets/Elipse.png') no-repeat top right,
               url('/src/assets/Elipse2.png')no-repeat center left,
-              url('src/assets/Camada1.png') no-repeat 90px 20px;
+              url('/src/assets/pesquisa.png') no-repeat 90px 20px;
              
   background-repeat: no-repeat;
   flex-direction: column;
