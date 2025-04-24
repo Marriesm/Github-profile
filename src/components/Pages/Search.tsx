@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import styles from './Search.module.scss';
+import searchIcon from '../../../assets/pesquisa.png';
 
 interface SearchProps {
   onSearch: (user: any) => void;
@@ -38,7 +39,7 @@ function Search({ onSearch }: SearchProps) {
           className={styles.searchInput}
         />
         <button onClick={handleSearch} className={styles.searchButton}>
-          <img src="../../../assets/pesquisa.png"/>
+        <img src={searchIcon} alt="Pesquisar" />
         </button>
       </div>
 
